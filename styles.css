@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #CB1C8D;
+    color: wheat;
+    text-align: center;
+}
+.letters{
+    background-color: #CB1C8D;
+    display: grid;
+    grid-template: repeat(5, 1fr)/repeat(5,1fr);
+    margin-bottom: 30px;
+}
+.letter{
+    background-color: #7F167F;
+    border: .77px solid black;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.user{
+    margin: 10px 0px 10px 0px;
+}
+.button-play{
+    text-align: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-color: #460C68;
+}
+.send{
+    background-color: #460C68;
+}
+.question{
+    text-align: center;
+    padding-top: 8px;
+}
+.answer{
+    text-align: center;
+}
+.counter{
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 20px;
+}
+.correct{
+    margin-right: 20px;
+    text-align: center;
+}
+.incorrect{
+    margin-right: 20px;
+    text-align: center;
+}
+.pasapalabra{
+    background-color: #460C68;
+}
+.replay{
+    background-color: #460C68;
+    width: 100px;
+    height:100px;
+    display: none;
+    margin: auto;
+}
+.time{
+    text-align: center;
+    align-content: center;
+    border: solid;
+    border-color: #460C68;
+    width: 300px;
+    padding-bottom: 12px;
+    margin: auto;
+    margin-top: 20px;
+}
+.jugando{
+    margin:auto;
+    display: none;
+}
+.play-section{
+    display: none;
+}
+.contadores{
+    display: none;
+}
+.ranking{
+    display: none;
+    grid-template: repeat(2, 1fr)/repeat(2,1fr);
+    border-color: #460C68;
+    border-style: solid;
+    margin-top: 10px;
+    padding: 15px 5px 15px 5px;
+    width: 60%;
+    align-items: center;
+    margin: auto;
+}
+.title-ranking{
+    display: none;
+}
+
